@@ -70,4 +70,3 @@ RUN set -eo pipefail \
       && make pRSEM \
       && make install
 
-ENTRYPOINT ["/usr/local/bin/rsem-calculate-expression"]
